@@ -1,7 +1,7 @@
 ---
 title: "Assignment 1: R Markdown practice"
-author: "Goeun Baek"
-date: "`r Sys.Date(2022-01-11)`"
+author: "Jackie Baek"
+date: "2022-03-08"
 documentclass: article
 geometry: margin=1in
 fontsize: 11pt
@@ -24,15 +24,41 @@ output:
     dev: svg
 urlcolor: blue
 ---
+# Section
+**Section 102**
 
-```{r} Hello World!
-library(tidyverse)
+# Course Goals
+By the end of the course, students will be able to: 
+
+* Use [GitHub](www.rstudio.com) for creating a reproducible research document.
+
+  -- My GitHub username is: *jackie0baek0.*
+
+* Obtain, clean, transform, and visualize a dataset using the R programming language.
+
+* Interpret and predict dataset trends using statistical inference and models.
+
+* Critically examine and interpret statistical claims reported in mass media.
+
+# Including Code
+## Running R code in a code chunk
+
+```{r}
+x <- 2+2
+x + 3
+```
+The output of the first line of code is not printed out because it is assigned to a variable instead.
+
+The second line of output is printed out instrad, but this means that the calculated value has not been saved for future use.
+
+## Displaying Graphs
+
+```{r}
+ggplot2::qplot(data = iris, x = Sepal.Length, y = Sepal.Width)
 ```
 
 
 
-```{r}
-g <- 5
 
 
 
