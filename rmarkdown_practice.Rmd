@@ -1,7 +1,7 @@
 ---
 title: "Assignment 1: R Markdown practice"
-author: "FirstName LastName"
-date: "`r Sys.Date()`"
+author: "Goeun Baek"
+date: "`r Sys.Date(2022-01-11)`"
 documentclass: article
 geometry: margin=1in
 fontsize: 11pt
@@ -32,9 +32,7 @@ library(tidyverse)
 
 
 ```{r}
-g <- 6
-```
-
+g <- 5
 
 
 
