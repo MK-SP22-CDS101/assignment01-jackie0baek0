@@ -25,7 +25,16 @@ output:
 urlcolor: blue
 ---
 
-<!-- Write your Markdown below this line -->
+```{r}
+library(tidyverse)
+```
+
+
+
+```{r}
+g <- 5
+```
+
 
 
 
